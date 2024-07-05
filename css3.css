@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.bubbles{
+    position: relative;
+    display: flex;
+}
+
+.bubbles span{
+position: relative;
+width: 30px;
+height: 30px;
+background: #4fc3dc;
+margin: 0 4px;
+border-radius: 50%;
+box-shadow: 0 0 0 10px #4fc3dc44,
+0 0 50px #4fc3dc, 
+0 0 100px #4fc3dc;
+animation: animate 15s linear infinite;
+animation-duration: calc(125s / var(--i));
+}
+
+.bubbles span:nth-child(1){
+    background: #4fc3dc;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+
+}
+
+.bubbles span:nth-child(2){
+    background: #2600ff;
+    box-shadow: 0 0 0 10px #2600ff44,
+    0 0 50px #2600ff, 
+    0 0 100px #2600ff;
+
+}
+
+
+.bubbles span:nth-child(3){
+    background: #9900ff8e;
+    box-shadow: 0 0 0 10px #9900ff44,
+    0 0 50px #9900ff8e, 
+    0 0 100px #9900ff8e;
+
+}
+
+.bubbles span:nth-child(4){
+    background: #00ffc8;
+    box-shadow: 0 0 0 10px #00ffc844,
+    0 0 50px #00ffc8, 
+    0 0 100px #00ffc8;
+
+}
+
+.bubbles span:nth-child(5){
+    background: #4fc3dc;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+
+}
+
+.bubbles span:nth-child(6){
+    background: #2600ff;
+    box-shadow: 0 0 0 10px #2600ff44,
+    0 0 50px #2600ff, 
+    0 0 100px #2600ff;
+
+}
+
+
+.bubbles span:nth-child(7){
+    background: #9900ff8e;
+    box-shadow: 0 0 0 10px #9900ff44,
+    0 0 50px #9900ff8e, 
+    0 0 100px #9900ff8e;
+
+}
+
+.bubbles span:nth-child(8){
+    background: #00ffc8;
+    box-shadow: 0 0 0 10px #00ffc844,
+    0 0 50px #00ffc8, 
+    0 0 100px #00ffc8;
+
+}
+
+.bubbles span:nth-child(9){
+    background: #4fc3dc;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+
+}
+
+.bubbles span:nth-child(10){
+    background: #2600ff;
+    box-shadow: 0 0 0 10px #2600ff44,
+    0 0 50px #2600ff, 
+    0 0 100px #2600ff;
+
+}
+
+
+.bubbles span:nth-child(11){
+    background: #9900ff8e;
+    box-shadow: 0 0 0 10px #9900ff44,
+    0 0 50px #9900ff8e, 
+    0 0 100px #9900ff8e;
+
+}
+
+.bubbles span:nth-child(12){
+    background: #00ffc8;
+    box-shadow: 0 0 0 10px #00ffc844,
+    0 0 50px #00ffc8, 
+    0 0 100px #00ffc8;
+
+}
+
+.bubbles span:nth-child(13){
+    background: #4fc3dc;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+
+}
+
+.bubbles span:nth-child(14){
+    background: #2600ff;
+    box-shadow: 0 0 0 10px #2600ff44,
+    0 0 50px #2600ff, 
+    0 0 100px #2600ff;
+
+}
+
+
+.bubbles span:nth-child(15){
+    background: #9900ff8e;
+    box-shadow: 0 0 0 10px #9900ff44,
+    0 0 50px #9900ff8e, 
+    0 0 100px #9900ff8e;
+
+}
+
+.bubbles span:nth-child(16){
+    background: #00ffc8;
+    box-shadow: 0 0 0 10px #00ffc844,
+    0 0 50px #00ffc8, 
+    0 0 100px #00ffc8;
+
+}
+
+.bubbles span:nth-child(17){
+    background: #4fc3dc;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+
+}
+
+.bubbles span:nth-child(18){
+    background: #2600ff;
+    box-shadow: 0 0 0 10px #2600ff44,
+    0 0 50px #2600ff, 
+    0 0 100px #2600ff;
+
+}
+
+
+.bubbles span:nth-child(19){
+    background: #9900ff8e;
+    box-shadow: 0 0 0 10px #9900ff44,
+    0 0 50px #9900ff8e, 
+    0 0 100px #9900ff8e;
+
+}
+
+.bubbles span:nth-child(20){
+    background: #00ffc8;
+    box-shadow: 0 0 0 10px #00ffc844,
+    0 0 50px #00ffc8, 
+    0 0 100px #00ffc8;
+
+}
+
+.bubbles span:nth-child(21){
+    background: #4fc3dc;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+
+}
+
+.bubbles span:nth-child(22){
+    background: #2600ff;
+    box-shadow: 0 0 0 10px #2600ff44,
+    0 0 50px #2600ff, 
+    0 0 100px #2600ff;
+
+}
+
+
+.bubbles span:nth-child(23){
+    background: #9900ff8e;
+    box-shadow: 0 0 0 10px #9900ff44,
+    0 0 50px #9900ff8e, 
+    0 0 100px #9900ff8e;
+
+}
+
+.bubbles span:nth-child(24){
+    background: #00ffc8;
+    box-shadow: 0 0 0 10px #00ffc844,
+    0 0 50px #00ffc8, 
+    0 0 100px #00ffc8;
+
+}
+
+.bubbles span:nth-child(25){
+    background: #4fc3dc;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+
+}
+
+.bubbles span:nth-child(26){
+    background: #2600ff;
+    box-shadow: 0 0 0 10px #2600ff44,
+    0 0 50px #2600ff, 
+    0 0 100px #2600ff;
+
+}
+
+
+.bubbles span:nth-child(27){
+    background: #9900ff8e;
+    box-shadow: 0 0 0 10px #9900ff44,
+    0 0 50px #9900ff8e, 
+    0 0 100px #9900ff8e;
+
+}
+
+.bubbles span:nth-child(28){
+    background: #00ffc8;
+    box-shadow: 0 0 0 10px #00ffc844,
+    0 0 50px #00ffc8, 
+    0 0 100px #00ffc8;
+
+}
+
+.bubbles span:nth-child(29){
+    background: #4fc3dc;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+
+}
+
+.bubbles span:nth-child(30){
+    background: #2600ff;
+    box-shadow: 0 0 0 10px #2600ff44,
+    0 0 50px #2600ff, 
+    0 0 100px #2600ff;
+
+}
+
+
+.bubbles span:nth-child(31){
+    background: #9900ff8e;
+    box-shadow: 0 0 0 10px #9900ff44,
+    0 0 50px #9900ff8e, 
+    0 0 100px #9900ff8e;
+
+}
+
+.bubbles span:nth-child(32){
+    background: #00ffc8;
+    box-shadow: 0 0 0 10px #00ffc844,
+    0 0 50px #00ffc8, 
+    0 0 100px #00ffc8;
+
+}
+
+.bubbles span:nth-child(33){
+    background: #4fc3dc;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+
+}
+
+.bubbles span:nth-child(34){
+    background: #2600ff;
+    box-shadow: 0 0 0 10px #2600ff44,
+    0 0 50px #2600ff, 
+    0 0 100px #2600ff;
+
+}
+
+
+.bubbles span:nth-child(35){
+    background: #9900ff8e;
+    box-shadow: 0 0 0 10px #9900ff44,
+    0 0 50px #9900ff8e, 
+    0 0 100px #9900ff8e;
+
+}
+
+.bubbles span:nth-child(36){
+    background: #00ffc8;
+    box-shadow: 0 0 0 10px #00ffc844,
+    0 0 50px #00ffc8, 
+    0 0 100px #00ffc8;
+
+}
+
+.bubbles span:nth-child(37){
+    background: #4fc3dc;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+
+}
+
+.bubbles span:nth-child(38){
+    background: #2600ff;
+    box-shadow: 0 0 0 10px #2600ff44,
+    0 0 50px #2600ff, 
+    0 0 100px #2600ff;
+
+}
+
+
+.bubbles span:nth-child(39){
+    background: #9900ff8e;
+    box-shadow: 0 0 0 10px #9900ff44,
+    0 0 50px #9900ff8e, 
+    0 0 100px #9900ff8e;
+
+}
+
+.bubbles span:nth-child(40){
+    background: #00ffc8;
+    box-shadow: 0 0 0 10px #00ffc844,
+    0 0 50px #00ffc8, 
+    0 0 100px #00ffc8;
+
+}
+
+.bubbles span:nth-child(41){
+    background: #4fc3dc;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+
+}
+
+.bubbles span:nth-child(42){
+    background: #2600ff;
+    box-shadow: 0 0 0 10px #2600ff44,
+    0 0 50px #2600ff, 
+    0 0 100px #2600ff;
+
+}
+
+
+.bubbles span:nth-child(43){
+    background: #9900ff8e;
+    box-shadow: 0 0 0 10px #9900ff44,
+    0 0 50px #9900ff8e, 
+    0 0 100px #9900ff8e;
+
+}
+
+.bubbles span:nth-child(44){
+    background: #00ffc8;
+    box-shadow: 0 0 0 10px #00ffc844,
+    0 0 50px #00ffc8, 
+    0 0 100px #00ffc8;
+
+}
+
+.bubbles span:nth-child(45){
+    background: #4fc3dc;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+
+}
+
+.bubbles span:nth-child(46){
+    background: #2600ff;
+    box-shadow: 0 0 0 10px #2600ff44,
+    0 0 50px #2600ff, 
+    0 0 100px #2600ff;
+
+}
+
+
+.bubbles span:nth-child(47){
+    background: #9900ff8e;
+    box-shadow: 0 0 0 10px #9900ff44,
+    0 0 50px #9900ff8e, 
+    0 0 100px #9900ff8e;
+
+}
+
+.bubbles span:nth-child(48){
+    background: #00ffc8;
+    box-shadow: 0 0 0 10px #00ffc844,
+    0 0 50px #00ffc8, 
+    0 0 100px #00ffc8;
+
+}
+
+.bubbles span:nth-child(49){
+    background: #4fc3dc;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+
+}
+
+.bubbles span:nth-child(50){
+    background: #2600ff;
+    box-shadow: 0 0 0 10px #2600ff44,
+    0 0 50px #2600ff, 
+    0 0 100px #2600ff;
+
+}
+
+
+.bubbles span:nth-child(51){
+    background: #9900ff8e;
+    box-shadow: 0 0 0 10px #9900ff44,
+    0 0 50px #9900ff8e, 
+    0 0 100px #9900ff8e;
+
+}
+
+.bubbles span:nth-child(52){
+    background: #00ffc8;
+    box-shadow: 0 0 0 10px #00ffc844,
+    0 0 50px #00ffc8, 
+    0 0 100px #00ffc8;
+
+}
+
+.bubbles span:nth-child(1){
+    background: #4fc3dc;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+
+}
+
+.bubbles span:nth-child(53){
+    background: #2600ff;
+    box-shadow: 0 0 0 10px #2600ff44,
+    0 0 50px #2600ff, 
+    0 0 100px #2600ff;
+
+}
+
+
+.bubbles span:nth-child(54){
+    background: #9900ff8e;
+    box-shadow: 0 0 0 10px #9900ff44,
+    0 0 50px #9900ff8e, 
+    0 0 100px #9900ff8e;
+
+}
+
+.bubbles span:nth-child(55){
+    background: #00ffc8;
+    box-shadow: 0 0 0 10px #00ffc844,
+    0 0 50px #00ffc8, 
+    0 0 100px #00ffc8;
+
+}
+
+.bubbles span:nth-child(56){
+    background: #4fc3dc;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+
+}
+
+.bubbles span:nth-child(57){
+    background: #2600ff;
+    box-shadow: 0 0 0 10px #2600ff44,
+    0 0 50px #2600ff, 
+    0 0 100px #2600ff;
+
+}
+
+
+.bubbles span:nth-child(58){
+    background: #9900ff8e;
+    box-shadow: 0 0 0 10px #9900ff44,
+    0 0 50px #9900ff8e, 
+    0 0 100px #9900ff8e;
+
+}
+
+.bubbles span:nth-child(59){
+    background: #00ffc8;
+    box-shadow: 0 0 0 10px #00ffc844,
+    0 0 50px #00ffc8, 
+    0 0 100px #00ffc8;
+
+}
+
+.bubbles span:nth-child(60){
+    background: #4fc3dc;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+
+}
+
+.bubbles span:nth-child(61){
+    background: #2600ff;
+    box-shadow: 0 0 0 10px #2600ff44,
+    0 0 50px #2600ff, 
+    0 0 100px #2600ff;
+
+}
+
+
+
+@keyframes animate{
+    0%{
+        transform: translateY(100vh)scale(0)
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+
+    }
+
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-decoration: none;
+    color: #535a52;
+    font-size: 200px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 15px;
+    cursor: pointer;
+}
+
+h1 span {
+    transition: .6s linear;
+}
+
+h1:hover span:nth-child(1) {
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+h1:hover span:nth-child(1)::after {
+    text-decoration: none;
+    content: " Feliz Cumpleaños";
+    font-size: 100px;
+    align-content: space-between;
+}
+
+h1:hover span:nth-child(2) {
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+h1:hover span{
+    color: #fff;
+    text-shadow: 0 0 2px #fff, 0 0 15px #b1b1b1, 0 0 30px #585858;
+
+}
+
+.si {
+    display: none;
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+    text-shadow: 0 0 10px #fff;
+    
+}
+
+
+
+
+
+.titillium-web-extralight {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .titillium-web-light {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .titillium-web-regular {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .titillium-web-semibold {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .titillium-web-bold {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .titillium-web-black {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .titillium-web-extralight-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .titillium-web-light-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .titillium-web-regular-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .titillium-web-semibold-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .titillium-web-bold-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
